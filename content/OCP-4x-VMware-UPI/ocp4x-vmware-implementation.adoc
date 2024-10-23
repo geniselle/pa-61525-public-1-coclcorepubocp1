@@ -61,7 +61,9 @@ Se define a continuación las configuraciones de redes necesarias para el aprovi
 |Red no enrutable para los objetos services del cluster.
 
 |LoadBalancers Network
-|10.32.0.0/16 - Datacenter CO 10.16.0.0/16 - Cluster Citrix LB
+a|
+- 10.32.0.0/16 - Datacenter CO
+- 10.16.0.0/16 - Cluster Citrix LB 
 |Red definida para las VIP de los balanceadores.
 
 |===
@@ -142,7 +144,10 @@ Se define a continuación las configuraciones de redes necesarias para el aprovi
 |Metrics
 |Block
 |thin-csi
-|110Gi Total (Prometheus: 2 x 40Gi-80Gi y AlertManager: 3 x 10Gi-30Gi)
+a| 110Gi Total:
+
+* Prometheus: 2 x 40Gi=80Gi 
+* AlertManager: 3 x 10Gi=30Gi
 
 |Logging
 |N/A

@@ -114,11 +114,6 @@ Sample
 |Long-Term Support
 
 // Term
-|CPU
-// Definition
-|Central Processing Unit
-
-// Term
 |NFS
 // Definition
 |Network File System
